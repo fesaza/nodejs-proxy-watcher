@@ -1,0 +1,29 @@
+{
+  "name": "node-app-watcher",
+  "version": "1.0.0",
+  "description": "wathcer proxy server for nodejs apps",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "watcher",
+    "api",
+    "nodejs"
+  ],
+  "author": "fesaza",
+  "license": "MIT",
+  "dependencies": {
+    "chokidar": "^1.6.1",
+    "colors": "^1.1.2",
+    "fs": "0.0.1-security",
+    "http": "0.0.0",
+    "http-proxy": "^1.16.2",
+    "lokijs": "^1.4.3",
+    "nodemon": "^1.11.0",
+    "pm2": "^2.4.2"
+  },
+  "devDependencies": {
+    "nodemon": "^1.11.0"
+  }
+}
